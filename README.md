@@ -1,10 +1,10 @@
 # S-Mart Company Build
 This project is the Capstone project for CSCC created by:
-Aaron Owens,<br />
-Derek Will,
-Thomas Robinson,
-Mark Lerner,
-Mahindra Adhikarri,
+Aaron Owens<br />
+Derek Will<br />
+Thomas Robinson<br />
+Mark Lerner<br />
+Mahindra Adhikarri<br />
 Purvik Patel
 
 
@@ -15,8 +15,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### What is Needed to Run project
 
-Xampp
-MySQL Workbench
+Xampp<br />
+MySQL Workbench<br />
 Git (Git Bash) from https://git-scm.com/download/
 
 
