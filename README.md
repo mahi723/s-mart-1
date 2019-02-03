@@ -69,8 +69,9 @@ cd c:/xampp/htdocs
 
 ```
 git clone https://github.com/dwilldev/s-mart.git
-```
+
 *note: you will have to paste the URL using right click on your mouse
+```
 
 5. After cloning is complete, use a web browser to open the website
 
