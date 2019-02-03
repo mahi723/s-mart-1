@@ -7,15 +7,18 @@ Mark Lerner
 Mahindra Adhikarri
 Purvik Patel
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### What is Needed to Run project
 
 Xampp
 MySQL Workbench
 Git (Git Bash) from https://git-scm.com/download/
+
 
 ### Installing and Testing Xampp
 
@@ -36,6 +39,7 @@ In the dialog box that opens, click 'Run' next to the Apache (server) option
 
 Open a web browser and enter your local IP address (usually 127.0.0.1) verifying the Xampp dashboard appears
 ```
+
 
 ### Installing Git (Git Bash)
 
@@ -66,12 +70,14 @@ cd c:/xampp/htdocs
 ```
 git clone https://github.com/dwilldev/s-mart.git
 ```
+*note: you will have to paste the URL using right click on your mouse
 
 5. After cloning is complete, use a web browser to open the website
 
 ```
 visit your local server again (with Apache turned on in Xampp) at 127.0.0.1/s-mart
 ```
+
 
 ### Installing and Connecting MySQL Workbench
 
@@ -88,7 +94,43 @@ Another page should load asking you to Sign Up or Login... there is the option t
 After the download completes, install the program using default features / settings
 ```
 
-## Deployment
+2. Run Workbench
+
+```
+Navigate to the 'MySQL' folder in the start menu
+
+Click on 'MySQL Workbench 8.0 CE'
+```
+
+3. Connect to the Database
+
+```
+Click the + (plus) icon next to the 'MySQL Connections' header
+
+Name the new connection something relavent
+
+Enter the IP address of the website (should be  127.0.0.1) and port 3306 (should be default after fresh install)
+
+Click on the newly added square with the local host credentials, and click 'Continue Anyway' on the popup
+```
+
+4. Import Database
+
+```
+Click the icon showing SQL written on a paper with a folder in front of it to import a script file
+
+In the dialog box, navigate to the 'htdocs/s-mart/database' folder and select 'ecommerce_v2_db-build.sql'
+
+After the script loads, click the 'Lightning Bolt' button to run the script
+```
+
+5. Import the 'ecommerce_v2_prods.sql' file to add the products using the steps in step 4
+
+6. Refresh the S-Mart website to see everything in action
+
+
+
+## Deploying you contributions (coming soon)
 
 1. Fetch current master
 
@@ -101,15 +143,18 @@ After the download completes, install the program using default features / setti
 Navigate to local host/*repo folder*
 ```
 
+
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
+
 ## Contributing
 
 There will be no outside contributions to this project being a private repo.
+
 
 ## Acknowledgments
 
