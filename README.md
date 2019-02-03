@@ -1,5 +1,5 @@
 # S-Mart Company Build
-This project is the Capstone project for CSCC created by:
+This project is the Capstone project for CSCC created by:<br />
 Aaron Owens<br />
 Derek Will<br />
 Thomas Robinson<br />
