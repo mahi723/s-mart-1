@@ -130,7 +130,7 @@ After the script loads, click the 'Lightning Bolt' button to run the script
 
 
 
-## Deploying you contributions (coming soon)
+## Deploying your contributions (coming soon)
 
 1. Fetch current master
 
