@@ -1,10 +1,10 @@
 # S-Mart Company Build
 This project is the Capstone project for CSCC created by:
-Aaron Owens
-Derek Will
-Thomas Robinson
-Mark Lerner
-Mahindra Adhikarri
+Aaron Owens,<br />
+Derek Will,
+Thomas Robinson,
+Mark Lerner,
+Mahindra Adhikarri,
 Purvik Patel
 
 
