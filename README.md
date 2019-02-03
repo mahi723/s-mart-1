@@ -154,7 +154,7 @@ Navigate to local host/*repo folder*
 
 ## Contributing
 
-There will be no outside contributions to this project being a private repo.
+There will be no outside contributions to this project being a private project for CSCC students.
 
 
 ## Acknowledgments
