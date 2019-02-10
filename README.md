@@ -29,7 +29,11 @@ This document lists the various problems the company is facing from having outda
 ## Images
 
 ### S-Mart Logo
+s-mart_logo.png
+<br />
 Use this image for the website, the intranet, any business documents, emails, etc. 
 
 ### S-Mart Organization Chart
+s-mart_org_chart.jpg
+<br />
 This is the organization of the business departments starting with the CEO.
