@@ -1,0 +1,3 @@
+# Your project folder
+
+The purpose of this folder is for us to upload our drafts of all of our documentation for our processes we've taken. We need instructions on how to set up and properly use your solutions. These folders will allow us to keep everything organized for Mahi when going through everyone's documents and compiling the training materials and reports. Once he has compiled the documentation and we all agree on its contents we will upload that final version to the main github base folder for presenting it up front.
