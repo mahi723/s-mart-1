@@ -8,7 +8,7 @@ Mahindra Adhikarri<br />
 Purvik Patel
 
 <br /><br />
-## Table of Contents
+## List of Files
 
 ### Application Outline
 This document is the outline for the project. Base of the System Outline Report.
