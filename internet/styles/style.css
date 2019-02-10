@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #6FB4F3;
+	font-family: courier;
+}
+body, p, h1, h2, h3, h4, h5, h6, a {
+	margin: 0;
+	padding: 0;
+}
+body p, li, a {
+	font-weight: 900;
+}
+h1, h2, h3 {
+	font-family: Ravi Prakash;
+}
+img.responsive {
+	max-width: 100%;
+}
+
+.active {
+	display: block;
+}
+.inactive {
+	display: none;
+}
+
+
+
+
+
+header {
+	height: 450px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* CUSTOMER NAV BAR AT VERY TOP OF SCREEN */
+.customer-navbar {
+	background: #B6D5F1;
+	border-bottom: #071C4A solid 1px;
+	padding: 25px 0 5px 0;
+	width: 100%;
+	float: left;
+	/* position: fixed;
+	top: 0; */
+	z-index: 9999;
+}
+.customer-navbar ul {
+	display: inline;
+	margin: 0 15px;
+	float: right;
+}
+.customer-navbar ul li {
+	display: inline;
+	list-style: none;
+	width: 100%;
+	padding: 0 0 0 15px;
+}
+
+
+.login-modal, .logout-modal {
+	position: absolute;
+	left: 15%;
+	top: 70px;
+	width: 60%;
+	background: #00f0f0;
+}
+
+.signin-modal, .signout-modal {
+	background: #FFFFFF;
+	border-radius: 20px;
+	padding: 20px;
+	position: absolute;
+	width: 100%;
+}
+
+.signin-modal form {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.signin-modal form label, .signin-modal form input, .signin-modal form button {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.signin-modal form input {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.signin-modal button {
+	padding: 10px 20px;
+}
+
+.signin-modal .close-button, .signin-modal .register-button {
+	float: left;
+	margin: 20px;
+}
+
+
+
+.branding {
+	padding: 0 15px;
+	clear: both;
+}
+.branding .logo {
+	margin: 55px 0 0 0;
+	float: left;
+}
+.logo img {
+	max-width: 440px;
+	border: 0;
+}
+header h1 {
+	padding: 30px 0 0 5%;
+	font-size: 11em;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1em;
+	float: left;
+}
+.cover {
+	float: right;
+	width: 440px;
+	position: relative;
+	z-index: 9999;
+	margin: 6px 0 0 0;
+}
+
+
+
+
+@media screen and (max-width: 1366px) {
+	header h1 {
+		font-size: 6em;
+	}
+}
+
+
+
+
+
+nav {
+	background: #B6D5F1;
+	width: 100%;
+}
+	.active-nav {
+		display: block;
+	}
+	.inactive-nav {
+		display: none;
+	}
+
+#top-nav {
+	width: 100%;
+	border-top: #071C4A solid 1px;
+	border-bottom: #071C4A solid 1px;
+	box-shadow: 0 20px 50px -20px #111111;
+	z-index: 100;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#top-nav > li {
+	display: inline;
+	margin: 30px;
+}
+#top-nav > li > a {
+	font-size: 3.5em;
+	color: #071C4A;
+	font-family: Ravi Prakash;
+	font-weight: normal;
+	text-decoration: none;
+}
+#top-nav > li > a:hover {
+	color: #B6D5F1;
+	background: #071C4A;
+	padding: 0;
+	margin: 0;
+}
+
+#sub-nav {
+	width: 100%;
+	/* background: #B6D5F1; */
+	border-bottom: #0000FF solid 1px;
+	min-height: 318px;
+	height: 100%;
+}
+
+.subnav-column {
+	/* background: #f0000f; */
+	height: 100%;
+	float: left;
+}
+.subnav-column > ul > li {
+	list-style-type: none;
+	margin: 30px;
+}
+.subnav-column > ul > li a, .subnav-column > ul > li a:active, .subnav-column > ul > li a:visited {
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 900;
+	color: #071C4A;
+}
+.subnav-column > ul > li a:hover {
+	font-size: 2.5em;
+	text-decoration: none;
+	color: #D12028;
+}
+
+
+
+
+
+.main-container {
+	margin: 50px 15px 0 15px;
+	position: relative;
+}
+section {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+.welcome h1 {
+	font-size: 5em;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+.welcome h2 {
+	font-size: 3.5em;
+	margin: 0;
+	padding: 0;
+}
+.welcome p {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+
+
+
+
+.main-content-container {
+	background: #D12028;
+	border-radius: 20px;
+	float: left;
+	margin-bottom: 100px;
+	padding: 10px;
+	box-shadow: 0 20px 50px -20px #111111;
+}
+
+
+
+
+.left-sidebar {
+	float: left;
+	width: 23.3%;
+	background: #B6D5F1;
+	border: #071C4A solid 1px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 20px 50px -20px #111111;
+}
+.left-sidebar h2 {		
+	font-size: 2.5em;
+	text-align: center;
+}
+.headline {
+	font-weight: 900;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+}
+
+.employee-of-month {
+	margin: 0 auto;
+}
+.employee-name {
+	font-weight: 900;
+	font-size: 1.25em;
+	text-align: center;
+	padding: 10px;
+}
+.employee-dept {
+	font-weight: 900;
+	font-size: 1.25em;
+	text-align: center;
+	padding: 10px;
+}
+.employee-blurb {
+	font-size: 1em;
+	padding: 10px;
+}
+.employee-of-month img {
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+}
+
+
+
+
+.main-content {
+	overflow: auto;
+	width: 75%;
+	background: #FFFFFF;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	float: right;
+}
+.main-content > div {
+	float: left;
+	width: 97.9%;
+	margin: 0 15px 100px 15px;
+}
+.main-content > div:last-child {		
+	margin-bottom: 15px;
+}
+.main-content h2 {		
+	font-size: 2.5em;
+	clear: both;
+}
+.main-content h3 {		
+	font-size: 1.75em;
+	clear: both;
+}
+.main-content > div > p {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+}
+
+
+.homepg-product {
+	float: left;
+	width: 30.5881%;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #6FB4F3;
+}
+.homepg-product:first-child {
+	margin-left: 0;
+}
+.homepg-product:last-child {
+	margin-right: 0;
+}
+
+
+
+.category-prodImg {
+	min-height: 300px;
+	position: relative;
+}
+.category-prodImg > img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	max-width: 98%;
+	max-height: 100%;
+}
+
+
+
+.catpg-product {
+	float: left;
+	width: 409px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #6FB4F3;
+}
+.catpg-product:first-child {
+	margin-left: 0;
+}
+.catpg-product:last-child {
+	margin-right: 0;
+}
+
+
+/* HOME PAGE PRODUCTS */
+.product-title {
+	text-align: center;
+	font-size: 1.75em;
+}
+.product-summary {
+	margin: 0 auto;
+	position: relative;
+	min-height: 200px;
+}
+.product-details {
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+.product-summary a {
+	padding: 20px;
+}
+
+
+
+
+
+.register-user form {
+	float: left;
+	padding: 20px;
+}
+
+.form-field, .register-user button {
+	float: left;
+	clear: both;
+	margin: 10px 0;
+}
+.form-field label, .form-field input {
+	float: left;
+	clear: both;
+}
+
+
+
+.accountpg-custpic {
+	max-width: 200px;
+	float: left;
+}
+.customer-greeting {
+	float: left;
+	margin: 0 0 0 15px;
+}
+#profilepic-form {
+	float: left;
+}
+
+
+
+
+/* PRODUCT PAGE */
+.prodpg-pic {
+	max-width: 550px;
+	float: left;
+}
+.prodpg-details {
+	height: 100%;
+	width: 59.5766%;
+	float: left;
+}
+.prodpg-features {
+	padding: 15px;
+	float: left;
+}
+.prodpg-desc {
+	padding: 15px;
+	float: left;
+}
+.prodpg-price-wrapper {
+	margin: 15px 15px 0 15px;
+	padding: 15px;
+	float: left;
+}
+.prodpg-cart-wrapper {
+	padding: 15px;
+	margin: 0 15px 15px 15px;
+	float: left;
+	width: 135px;
+	border-radius: 20px;
+	border: 3px solid #D12028;
+	background: #B6D5F1;
+	clear: both;
+}
+.prodpg-cart-wrapper .cart-field {
+	float: left;
+}
+.prodpg-cart-wrapper .form-qty {
+	width: 100%;
+}
+.prodpg-cart-wrapper #quantity {
+	width: 25px;
+}
+.prodpg-add {
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	background: #D12028;
+}
+
+
+
+
+.fan-source {
+	margin: 20px 0;
+}
+
+
+
+
+
+footer {
+	height: 300px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #b6d5f1;
+	border-top: #071C4A solid 1px;
+	clear: both;
+}
+.copyright {
+	text-align: center;
+}
