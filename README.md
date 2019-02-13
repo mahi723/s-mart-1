@@ -13,6 +13,9 @@ Purvik Patel
 ### Application Outline
 This document is the outline for the project. Base of the System Outline Report.
 
+### Bitrix24
+Basic instructions for using our project task management tool to help speed up collaboration by providing and introduction of the UI and task control.
+
 ### Contract
 This document lists the development team members and their roles/responsibilities, which are subject to change or be additions of duties.
 
